@@ -1,14 +1,30 @@
 body{
   display: flex; 
   flex-direction: column;
+  width: 100%; 
+  margin: 0;
+  padding: 0;
 }
 
 header, footer, .content-1{
   background-color: #1F2937;
 }
 
+header{
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-around;
+}
+
 h1{
   color: #F9FAF8;
+}
+
+ul{
+  display: flex; 
+  gap: 16px; 
+  margin: 0; 
+  padding: 0; 
 }
 
 h2{
@@ -17,9 +33,9 @@ h2{
   font-weight:bolder; 
 }
 
+
+
 li{
-  
-  
   list-style-type: none;
 }
 a{
@@ -54,4 +70,8 @@ button, .box{
 
 footer{
   color: #F9FAF8; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin-top:auto;
 }
