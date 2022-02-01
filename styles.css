@@ -90,11 +90,13 @@ h2{
     text-align: center; 
     font-size: 36px;
     color: #1F2937;
-    padding: 20px;
+    padding: 2%;
+    
 }
 .content-2 {
     display: flex; 
     flex-direction: column; 
+    padding-bottom: 5%; 
 }
 
 #images {
@@ -109,7 +111,7 @@ h2{
 .border {
     border: solid; 
     border-color: #3882F6;
-    border-radius: 20px; 
+    border-radius: 10%; 
 }
 
 .image-caption {
@@ -127,12 +129,24 @@ h2{
 
 .content-3{
     background-color: #E5E7EB;
+    display: flex; 
+    flex-direction: column; 
+    
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
   
   #quote{
     font-size: 36px; 
     font-style: italic;
     color: #1F2937; 
+    max-width: 50%;
+    
+  }
+
+  #thor{
+    font-weight: bold;
+    text-align: right; 
   }
 
 /*Content-4*/
