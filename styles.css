@@ -86,26 +86,28 @@ h1{
 
 /*Content-2*/
 
-h2{
-    text-align: center; 
-    font-size: 36px;
-    color: #1F2937;
-    padding: 2%;
-    
-}
 .content-2 {
     display: flex; 
     flex-direction: column; 
     padding-bottom: 5%; 
 }
+h2{
+    align-self: center; 
+    font-size: 36px;
+    color: #1F2937;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+
 
 #images {
     display: flex; 
     flex-direction: row; 
-    justify-content: center;
-    
+    align-self: center;
+    padding-left: 4%; 
     max-width: 50%;
-    margin: auto; 
+    
 }
 
 .border {
@@ -115,9 +117,9 @@ h2{
 }
 
 .image-caption {
-    width: 80%; 
-    
-    text-align: center;
+    width: 60%; 
+    padding-left: 2%;    
+    text-align: center; 
 
 }
 
@@ -131,25 +133,32 @@ h2{
     background-color: #E5E7EB;
     display: flex; 
     flex-direction: column; 
-    
+    align-items: center; 
     padding-top: 5%;
     padding-bottom: 5%;
+    
   }
   
   #quote{
     font-size: 36px; 
     font-style: italic;
     color: #1F2937; 
-    max-width: 50%;
-    
+    max-width: 43%;
+    align-self: center; 
   }
 
   #thor{
     font-weight: bold;
-    text-align: right; 
+    font-size: 24px; 
+    align-self: flex-end;
+    padding-right: 30%;
   }
 
 /*Content-4*/
+
+.content-4{
+    max-width: 80%;
+}
 
 /*Footer*/
 footer{
