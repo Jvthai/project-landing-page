@@ -157,7 +157,48 @@ h2{
 /*Content-4*/
 
 .content-4{
-    max-width: 80%;
+    display: flex; 
+    justify-content: center; 
+    
+}
+
+.box{
+   display: flex; 
+   color: #F9FAF8;
+   padding: 5%; 
+   margin-top: 5%;
+   margin-bottom: 5%;
+   min-width: 60%;
+   gap: 40%; 
+   border-radius: 10%; 
+   overflow: visible; 
+   border: solid red; 
+}
+
+.box-left{
+    align-self: center; 
+    align-items: flex-start;
+    
+}
+
+#content-4-p1{
+    font-size: 22px; 
+    font-weight: bold; 
+}
+
+.box-right{
+    align-self:center; 
+    
+}
+
+#content-4-p2{
+    font-size: 14px; 
+}
+
+#button-2{
+    color:#F9FAF8;
+    border: solid #F9FAF8;
+    border-radius: 25px;
 }
 
 /*Footer*/
