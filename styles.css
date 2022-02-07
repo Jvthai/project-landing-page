@@ -11,6 +11,9 @@ body{
   
 }
 
+button, .box{
+    background-color: #3882F6;
+  }
 
 
 /*Header*/
@@ -72,11 +75,14 @@ h1{
   }
 #button-1{
     width:25%; 
-    height: 15%; 
+    height: 17%; 
     color: #F9FAF8; 
-    font-size:small;  
+    font-size:medium;  
     font-weight: bold;
-    border-radius: 25px;
+    border-radius: 10px;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    border: none; 
   }
 #subtext{
     color: #E5E7EB;
@@ -165,14 +171,14 @@ h2{
 .box{
    display: flex; 
    color: #F9FAF8;
-   padding: 5%; 
+   padding: 2%; 
    margin-top: 5%;
    margin-bottom: 5%;
    min-width: 60%;
    gap: 40%; 
-   border-radius: 10%; 
+   border-radius: 10px; 
    overflow: visible; 
-   border: solid red; 
+   
 }
 
 .box-left{
@@ -198,7 +204,12 @@ h2{
 #button-2{
     color:#F9FAF8;
     border: solid #F9FAF8;
-    border-radius: 25px;
+    border-radius: 10px;
+    font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 /*Footer*/
@@ -208,6 +219,7 @@ footer{
     justify-content: center;
     align-items: center;
     margin-top:auto;
+    padding: 1%; 
   }
 
 header, footer, .content-1{
@@ -217,9 +229,7 @@ header, footer, .content-1{
 
 
 
-button, .box{
-  background-color: #3882F6;
-}
+
 
 
 
