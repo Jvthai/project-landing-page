@@ -11,7 +11,7 @@ body{
   
 }
 
-button, .box{
+button, #box{
     background-color: #3882F6;
   }
 
@@ -29,7 +29,7 @@ a{
     font-size: 18px;
     text-decoration: none;
 }
-.left{
+#left{
     font-size: 24px; 
     color: #F9FAF8; 
     font: roboto; 
@@ -52,7 +52,7 @@ h1{
     font: roboto;
   }
   
-.content-1 {
+#content-1 {
     display: flex; 
     flex-wrap: wrap;
     padding: 5%;
@@ -61,14 +61,14 @@ h1{
    
   }
   
-.content-1-sub-block {
+#content-1-sub-block {
     display: flex; 
     flex-direction: column; 
     inline-size: min-content;
     width: 30%;
   }
   
-.content-1-image {
+#content-1-image {
     background-color: #E5E7EB; 
     height: 50%; 
     width: 50%; 
@@ -92,7 +92,7 @@ h1{
 
 /*Content-2*/
 
-.content-2 {
+#content-2 {
     display: flex; 
     flex-direction: column; 
     padding-bottom: 5%; 
@@ -135,7 +135,7 @@ h2{
 
 /*Content-3*/
 
-.content-3{
+#content-3{
     background-color: #E5E7EB;
     display: flex; 
     flex-direction: column; 
@@ -162,13 +162,13 @@ h2{
 
 /*Content-4*/
 
-.content-4{
+#content-4{
     display: flex; 
     justify-content: center; 
     
 }
 
-.box{
+#box{
    display: flex; 
    color: #F9FAF8;
    padding: 2%; 
@@ -181,7 +181,7 @@ h2{
    
 }
 
-.box-left{
+#box-left{
     align-self: center; 
     align-items: flex-start;
     
@@ -192,7 +192,7 @@ h2{
     font-weight: bold; 
 }
 
-.box-right{
+#box-right{
     align-self:center; 
     
 }
@@ -222,7 +222,7 @@ footer{
     padding: 1%; 
   }
 
-header, footer, .content-1{
+header, footer, #content-1{
   background-color: #1F2937;
 }
 
